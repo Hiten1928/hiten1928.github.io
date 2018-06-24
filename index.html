@@ -3,6 +3,7 @@
 <title>PortFolio</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity=" sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 <link rel="stylesheet" href="resources/style/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -17,6 +18,15 @@ img.cover
     padding-right: 40px;
     padding-top: 50px;
 }
+
+div.backimage
+{
+  background-image: url('resources/images/background1.jpg');
+  width: 100%;
+  max-width: 1000px;
+  margin: 
+}
+
 
 p.a 
 {
@@ -33,11 +43,22 @@ b.a {
 }
 .mySlides {display: none;}
 .w3-image {max-height: 370px;}
+
+.menu{
+  display:none;
+}
+
+.researchcont{
+  float:center;
+  margin-left: 22%;
+  margin-bottom:32px
+}
+
 </style>
-<body class="w3-content w3-black" style="max-width:2500px;">
+<body class=" w3-white" style="max-width:2500px;">
 
 <!-- Header with Slideshow -->
-<header class="w3-display-container w3-center">
+<header class="w3-display-container w3-animate-opacity w3-center">
 
   <div class="mySlides w3-animate-opacity ">
     <div class="w3-black  w3-hover-opacity-off w3-padding-16 w3-round-large">
@@ -52,11 +73,12 @@ b.a {
 </header>
 
 <!-- The App Section -->
-<div class="w3-padding-64 w3-white ">
+<div class="w3-padding w3-white ">
   <div class="w3-row-padding">
     <div class="w3-col l8 m6">
-      <h1 class="w3-xxxlarge"><b class="a">ABOUT ME</b></h1>
-      <h1 class="w3-xxxlarge w3-text-green"><b>Who, What and Why?</b></h1>
+      <h5 class=" w3-padding-48 w3-xxxlarge"><span class="w3-tag w3-wide">ABOUT ME</span></h5>
+      <hr style="width:50px;border:5px solid red" class="w3-round">
+      <!-- <h1 class="w3-xxxlarge w3-text-green"><b>Who, What and Why?</b></h1> -->
       <p class="a"><span class="w3-xlarge">I am a Software Developer</span>, completed my Bachelors in the field of Computer Science. I have worked in web development, Cloud environment, Artificial Intelligence and Machine Learning. I have completed projects that are used by NIIT Technologies and is a part of their coursework. Some of my personal projects include Data Science as well, ranging from Data Analytics to making predictions using pre-defined Algorithms and using API's</p>
       <p class="a">Currently pursuing <span class="w3-xlarge"> Masters of Science</span> in <span class="w3-xlarge">Software Engineering</span> from <span class="w3-xlarge"> Rochester Institute of Technology, NY, USA</span></p>
 
@@ -65,7 +87,7 @@ b.a {
       </button> -->
     </div>
     <div class="w3-col l4 m6">
-      <img src="resources/images/cover.jpeg" class="w3-image w3-right w3-hide-small cover" width="300" height="471" >
+      <img src="resources/images/cover.jpeg" class="w3-image w3-right w3-hide-small cover w3-animate-left w3-grayscale" width="300" height="471" >
       <div class="w3-center w3-hide-large w3-hide-medium">
         <button class="w3-button w3-block w3-padding-large" onclick="document.getElementById('download').style.display='block'">
           <i class="fa fa-download"></i> Download Application
@@ -77,12 +99,11 @@ b.a {
 </div>
 
 <!-- Features Section -->
-<div class="w3-container w3-padding-64 w3-dark-grey w3-center">
-  <h1 class="w3-jumbo"><b>Skills</b></h1>
-  <p>This includes skills and tools I develop in</p>
+<div class="w3-container w3-dark-grey w3-center">
+<h5 class="w3-center w3-padding-48 w3-xxxlarge"><span class="w3-tag w3-wide w3-border w3-round">TECHNICAL SKILLS</span></h5>
 
-  <div class="w3-row" style="margin-top:64px">
-    <p class="w3-xlarge">Proficient</p>
+  <div class="w3-row" style="margin-top:24px">
+    <p class="w3-xlarge"><span class="w3-tag w3-wide">Proficient</span></p>
     <div class="w3-col s3">
       <img src="https://www.brianweet.com/assets/docker-blog-1/docker-logo.png" width="15%" height="15%"></img>
       <p>Docker</p>
@@ -118,8 +139,8 @@ b.a {
     </div>
   </div>
 
-  <div class="w3-row" style="margin-top:64px">
-    <p class="w3-xlarge">Intermediate</p>
+  <div class="w3-row" style="margin-top:40px">
+    <p class="w3-xlarge" style="margin-bottom: 20px"><span class="w3-tag w3-wide">Intermediate</span></p>
     <div class="w3-col s3">
       <img src="http://devrecords.com/Images/technologies/django-icon.png" width="15%" height="15%"></img>
       <p>Django</p>
@@ -139,7 +160,7 @@ b.a {
   </div>
   
   <div class="w3-row" style="margin-top:64px">
-    <p class="w3-xlarge">Beginner</p>
+    <p class="w3-xlarge"><span class="w3-tag w3-wide">Beginner</span></p>
     <div class="w3-col s3">
       <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/R_logo.svg/724px-R_logo.svg.png" width="15%" height="15%"></img>
       <p>R</p>
@@ -173,25 +194,52 @@ b.a {
   </div>
 </div>
 
-<!-- Clarity Section -->
-<div class="w3-padding-64 w3-light-grey">
-  <div class="w3-row-padding">
-    <div class="w3-col l4 m6">
-      <img class="w3-image w3-round-large w3-hide-small w3-grayscale" src="/w3images/app5.jpg" alt="App" width="335" height="471">
+
+
+  <!--  RESEARCH -->
+
+
+  <!-- Menu Container -->
+<!-- Menu Container -->
+
+<div class="w3-container w3-black w3-black w3-border-teal" id="menu">
+  <h5 class="w3-center w3-xxxlarge w3-padding-48"><span class="w3-tag w3-wide ">RESEARCH</span></h5>
+  <div class="w3-content researchcont w3-white w3-border w3-round-large" style="max-width:700px; margin-top:40px">
+    <div class="w3-row w3-center w3-card w3-padding">
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
+        <div class="w3-col s6 tablink w3-xlarge">Till - Date</div>
+      </a>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
+        <div class="w3-col s6 tablink w3-xlarge">Future - Date</div>
+      </a>
     </div>
-    <div class="w3-col l8 m6">
-      <h1 class="w3-jumbo"><b>Projects</b></h1>
-      <h1 class="w3-xxxlarge w3-text-red"><b>Pixels, who?</b></h1>
-      <p><span class="w3-xlarge">A revolution in resolution.</span> Sharp and clear photos with the world's best photo engine, incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
-        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+
+    <div id="Eat" class="w3-container menu w3-padding-48 w3-card w3-center">
+      <h4><b>Self-Adaptive Systems</b></h4>
+      <p class="w3-text-grey">My research was centered at enhancing the reliability and performance of self-adaptive systems as a whole.
+      Self-Adaptive Systems are ubiquitous, ranging from this website you are watching to IBM Watson. My work focussed in increasing the resiliency of the system by making it pro-active about the future changes that the system should be prepared for. </p>
+      <p class="w3-text-grey">I developed an algorithm that would include Markov's Decision Process and enhance its decision making process by incorporating factors necessari for <b>safety critical systems</b> such as Unmanned Aerial Vehicles(UAV's)</p>
+      <p>I am a Graduate Assistant with Prof. Daniel Krutz in Rochester Institute of Technology.</p><br>
+    
+      <h4><b>Microserives</b></h4>
+      <p class="w3-text-grey">Along with Self-Adaptive systems I have worked in the area of Microservices and focussed in the Testing of Microservices. My work was guided by the fact that in a complex microservices it is not possible to pin-point the location of the microservices which fail and it is a tedious task that falls on the developers domain. This problem can be solved in order to make microservices testing feasible and much more granular in nature.</p>
+      <p>I am working with Prof. Naveen Sharma, Department Chair(Software Engineering), RIT  in this topic.</p>
     </div>
-    <p>TEST</p>
+
+    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card w3-center">
+      <h4><b>Software Evolution(Performance Regression)</h4>
+      <p class="w3-text-grey">My future plans are to apply the pro-active nature of self adaptive systems to the domain of Software Evolution and enhance the process of software maintaince by automating the task of <b>reduction in Performance Regression</b></p><br>
+    </div>  
+    <!-- <img src="/w3images/coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;"> -->
   </div>
 </div>
 
+
+
+
 <div class="w3-container w3-white" style="padding:50px 16px" id="team">
-  <h2 class="w3-center">THE TEAM</h2>
-  <p class="w3-center w3-large">The ones who runs this company</p>
+  <h5 class="w3-center w3-dark-grey w3-padding-48 w3-xxxlarge"><span class="w3-tag w3-wide">PROJECTS</span></h5>
+  <p class="w3-center w3-large"></p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-card">
@@ -286,14 +334,14 @@ b.a {
 <div class="w3-container w3-padding-64 w3-theme-l5" id="contact">
   <div class="w3-row">
     <div class="w3-col m5">
-    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar">Contact Us</span></div>
+    <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar w3-round">Contact Us</span></div>
       <h3>Address</h3>
       <p><b>Rochester Institute of Technology</b></p>
       <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i>  Rochester, NY</p>
       <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +1 (585)978-5229</p>
       <p><i class="fa fa-envelope-o w3-text-teal w3-xlarge"></i>  hitengupta98@gmail.com</p>
     </div>
-    <div class="w3-col m7">
+    <div class="w3-col m7 w3-border w3-round">
       <form class="w3-container w3-card-4 w3-padding-16 w3-white" action="/action_page.php" target="_blank">
       <div class="w3-section">      
         <label>Name</label>
@@ -318,14 +366,15 @@ b.a {
 <!-- Footer -->
 <footer class="w3-container w3-padding-32 w3-center w3-xlarge">
   <div class="w3-section">
-    <i class="fa fa-facebook-official w3-hover-opacity"></i>
+    <a href="https://www.facebook.com/smasher3008"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <i class="fa fa-instagram w3-hover-opacity"></i>
     <i class="fa fa-snapchat w3-hover-opacity"></i>
     <i class="fa fa-pinterest-p w3-hover-opacity"></i>
     <i class="fa fa-twitter w3-hover-opacity"></i>
     <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium"><i class="far fa-copyright"></i><a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">Hiten Gupta</a></p>
   </div>
-  <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+ 
 </footer>
 
 <script>
@@ -347,6 +396,23 @@ function showDivs(n) {
   }
   x[slideIndex-1].style.display = "block";  
 }
+
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+
+
 </script>
 
 </body>
