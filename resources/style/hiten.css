@@ -1,0 +1,84 @@
+body,h1,h2,h3,h4,h5
+ {
+  font-family: "Poppins", sans-serif
+
+}
+
+body 
+{
+  font-size: 16px;
+
+    
+    line-height: 1.8;
+
+}
+
+html{
+  height: 100%;
+}
+
+img {
+  margin-bottom: -8px;    
+}
+
+img.cover
+{
+   border-radius: 8px;
+    padding-right: 40px;
+    padding-top: 50px;
+}
+
+p.a 
+{
+  font-family: "Lucida Console", Monaco, monospace;
+}
+
+b.a {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+.mySlides {display: none;}
+
+.research {
+    display: none;
+}
+
+.researchcont{
+  float:center;
+  margin-left: 33.333%;
+  margin-bottom:32px
+}
+
+.display{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: initial;
+    background: url('https://images.unsplash.com/photo-1514580426463-fd77dc4d0672?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=802c875bf67a4dcaf275e11b1fa48d24&auto=format&fit=crop&w=660&q=80');
+    min-height: 100%;
+}
+
+.aboutp{
+  padding-top: 100px;
+}
+
+.bgimg-1{
+ 
+    position: relative;
+    background-position:;
+    background-size:;
+    background-attachment: fixed;
+    background: url('https://images.unsplash.com/photo-1514580426463-fd77dc4d0672?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=802c875bf67a4dcaf275e11b1fa48d24&auto=format&fit=crop&w=660&q=80');
+    
+}
+
+.w3-display-container{
+  position:relative;
+  background: linear-gradient(#242222, transparent), url('https://images.unsplash.com/photo-1519893578517-3252b77e8fdf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=360a6f43b0507da46c0a9259c42fa265&auto=format&fit=crop&w=1649&q=80');
+  background-size: 25% ; 
+  background-position: center;
+  background-repeat:no-repeat;
+    background-attachment: fixed;
+}

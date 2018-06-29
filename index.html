@@ -1,118 +1,73 @@
-
-
-
-
 <!DOCTYPE html>
+
 <html>
+
 <title>PortFolio</title>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-<link rel="stylesheet" href="resources/style/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-<style>
-body,h1,h2,h3,h4,h5
- {
-  font-family: "Poppins", sans-serif
-}
-
-body 
-{
-  font-size: 16px;
-}
-
-img {
-  margin-bottom: -8px;    
-}
-
-img.cover
-{
-   border-radius: 8px;
-    padding-right: 40px;
-    padding-top: 50px;
-}
-
-p.a 
-{
-  font-family: "Lucida Console", Monaco, monospace;
-}
-
-b.a {
-  font-family: "Comic Sans MS", cursive, sans-serif;
-}
-
-.hrclass 
-{
-  height: 10px;
-  border: 0;
-  box-shadow: 0 10px 10px -10px #8c8b8b inset;
-}
-
-.mySlides {display: none;}
-
-.w3-image {max-height: 370px;}
-
-.menu {
-    display: none;
-}
-
-.researchcont{
-  float:center;
-  margin-left: 22%;
-  margin-bottom:32px
-}
-
-
-.parallax-1 {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-1 {
-    background-image: url('/resources/images/background1.jpg');
-    min-height: 100%;
-}
-</style>
+<link rel="stylesheet" href="resources/style/hiten.css">
+<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Frijole|Righteous" rel="stylesheet">
 
 
 
 
 
-<body class="w3-white" style="max-width: 2500px" id="home">
+
+<body class="w3-black" style="max-width: 2500px" id="home">
+
 
 
                                                                       <!-- NAVBAR -->
 
+<div class="w3-top">
+    <div class="w3-bar w3-black w3-card" id="myNavbar">
+      <a href="#home" class="w3-bar-item w3-button w3-wide">HITEN GUPTA</a>
+      <!-- Right-sided navbar links -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+        <a href="#skills" class="w3-bar-item w3-button"><i class="far fa-keyboard"></i> SKILLS</a>
+        <a href="#projects" class="w3-bar-item w3-button"><i class="fas fa-folder-open"></i></i> PROJECTS</a>
+        <a href="#research" class="w3-bar-item w3-button"><i class="fa fa-th"></i> RESEARCH</a>
+        <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-briefcase"></i> WORK</a>
+        <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+      </div>
+      
 
-  <div class="w3-top w3-center">
-     <div class="w3-row w3-padding w3-black">
-    <div class="w3-col s3">
-      <a href="#" class="w3-button w3-black">HOME</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-black">ABOUT</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-black">RESEARCH</a>
-    </div>
-    <div class="w3-col s3">
-      <a href="#projects" class="w3-button w3-black" style="scroll-behavior: smooth;">PROJECTS</a>
-    </div>
+      <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+      <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
   </div>
 
 
+
+<header class="w3-content" style="max-width:100%; margin-top: 3.5em">
+  <img  src="cover3.jpg" width=100% height=50%  alt="Me"></img>
+  <div class="w3-display-left w3-padding-large  w3-wide w3-text-light-grey w3-center" style="margin-left: 35% ">
+  </div> 
+</header>
+
+
+
+
+
+
                                                         <!-- ABOUT SECTION -->
 
-  <div class="w3-container w3-content w3-center w3-padding-100" style="max-width:500px; float: center; margin-left: 15%" id="band">
-    <h5 class=" w3-padding-16 w3-xxxlarge"><span class="w3-tag w3-wide w3-round-large">ABOUT ME</span></h5>
+  <div class="w3-container w3-content w3-center w3-padding-100 w3-round-large w3-sand" style="max-width:500px;  margin-top: 2%; margin-left: 15%; background: linear-gradient(#C79775,transparent)" id="about">
+    <h1 class=" w3-padding-16" style="font-family: 'Frijole'; font-size: 52px; color: sand" ><span class=" w3-round-large ">ABOUT ME</span></h1>
       <!-- <hr style="width:50px;border:5px solid red ; margin-left: 43%" class="w3-round"> -->
-    <p class="w3-opacity"><i>I might be interesting!!</i></p>
+    <!-- <p class="w3-opacity"><i>I might be interesting!!</i></p> -->
     <p class="w3-justify">I am a seasoned Software Developer</span>, completed my Bachelors in the field of Computer Science. I have worked in web development, Cloud environment, Artificial Intelligence and Machine Learning. I have completed projects that are used by NIIT Technologies and is a part of their coursework. Some of my personal projects include Data Science as well, ranging from Data Analytics to making predictions using pre-defined Algorithms and using API's</p>
     <p class="a">Currently pursuing <span class="w3-xlarge"> Masters of Science</span> in <span class="w3-xlarge">Software Engineering</span> from <span class="w3-xlarge"> Rochester Institute of Technology, NY, USA</span></p>
 
@@ -123,9 +78,9 @@ b.a {
 
                                                           <!-- Features Section -->
 
-<div class="w3-container w3-black w3-center ">
-<hr class="hrclass">
-<h5 class="w3-center w3-padding-48 w3-xxxlarge"><span class="w3-tag w3-wide w3-border w3-round-large">TECHNICAL SKILLS</span></h5>
+<div class="w3-container w3-black w3-center " id = "skills">
+
+<h5 class="w3-center w3-padding-48 w3-xxxlarge" style="font-family: 'Frijole'; font-size:62px"><span>TECHNICAL SKILLS</span></h5>
 
   <div class="w3-row" style="margin-top:24px">
     <p class="w3-xlarge"><span class="w3-tag w3-wide">Proficient</span></p>
@@ -210,7 +165,6 @@ b.a {
     </div>
   </div>
 </div>
-<hr class="hrclass">
 
 
 
@@ -219,8 +173,8 @@ b.a {
 
 
 
-<div class="w3-container w3-sand" id="menu">
-  <h5 class="w3-center w3-xxxlarge w3-padding-48"><span class="w3-tag w3-wide ">RESEARCH</span></h5>
+<div class="w3-container w3-white" id="research">
+  <h2 class="w3-center w3-xxxlarge w3-padding-48" style="font-family: 'Frijole';font-size: 62px" ><span>RESEARCH</span></h2>
   <div class="w3-content researchcont w3-white w3-border w3-round-large" style="max-width:700px; margin-top:40px">
     <div class="w3-row w3-center w3-card w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
@@ -231,7 +185,7 @@ b.a {
       </a>
     </div>
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card w3-center">
+    <div id="Eat" class="w3-container research w3-padding-48 w3-card w3-center" style="background: linear-gradient(#EDBFAF,transparent)">
       <h4><b>Self-Adaptive Systems</b></h4>
       <p class="w3-text-grey">My research was centered at enhancing the reliability and performance of self-adaptive systems as a whole.
       Self-Adaptive Systems are ubiquitous, ranging from this website you are watching to IBM Watson. My work focussed in increasing the resiliency of the system by making it pro-active about the future changes that the system should be prepared for. </p>
@@ -243,7 +197,7 @@ b.a {
       <p>I am working with Prof. Naveen Sharma, Department Chair(Software Engineering), RIT  in this topic.</p>
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card w3-center">
+    <div id="Drinks" class="w3-container research w3-padding-48 w3-card w3-center">
       <h4><b>Software Evolution(Performance Regression)</h4>
       <p class="w3-text-grey">My future plans are to apply the pro-active nature of self adaptive systems to the domain of Software Evolution and enhance the process of software maintaince by automating the task of <b>reduction in Performance Regression</b>.</p><br>
       <h4><b>User Reviews Matter!!</h4>
@@ -258,12 +212,12 @@ b.a {
 
 
 
-<div class="w3-container w3-white" style="padding:10px 16px" id="projects">
-  <h5 class="w3-center w3-padding-48 w3-xxxlarge"><span class="w3-tag w3-wide w3-border w3-round-large">PROJECTS</span></h5>
+<div class="w3-container w3-white" style="padding:10px 16px; background: linear-gradient(#C79775,transparent)" id="projects">
+  <h1 class="w3-center w3-padding-48 w3-xxxlarge" style="font-family: 'Frijole'; font-size: 62px"><span>PROJECTS</span></h1>
   <p class="w3-center w3-large"></p>
   <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-card w3-white">
+      <div class="w3-card">
         <div class="w3-container">
           <h3>Sentiment Analysis</h3>
           <p class="w3-opacity">The application takes game(any console) reviews and predicts the aspects, sentiment in a custom review entered by the user.</p>
@@ -344,7 +298,7 @@ b.a {
                                                             <!--CONTACT SECTION -->
 
 
-<div class="w3-container w3-padding-100 w3-theme-l5" id="contact">
+<div class="w3-container w3-padding-100 w3-theme-l5" id="contact" style="padding-top: 24px">
   <div class="w3-row">
     <div class="w3-col m5">
     <div class="w3-padding-16"><span class="w3-xlarge w3-border-teal w3-bottombar w3-round">Contact Us</span></div>
@@ -381,7 +335,7 @@ b.a {
                                                                       <!-- Footer -->
 
 
-<footer class="w3-container w3-padding-32 w3-center w3-xlarge">
+<footer class="w3-container w3-padding-32 w3-xlarge" style="padding-left: 500px">
   <div class="w3-section">
     <a href="https://www.facebook.com/smasher3008"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
     <i class="fa fa-instagram w3-hover-opacity"></i>
@@ -422,7 +376,7 @@ function showDivs(n) {
 
 function openMenu(evt, menuName) {
   var i, x, tablinks;
-  x = document.getElementsByClassName("menu");
+  x = document.getElementsByClassName("research");
   for (i = 0; i < x.length; i++) {
      x[i].style.display = "none";
   }
