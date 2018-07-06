@@ -82,3 +82,10 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
   background-repeat:no-repeat;
     background-attachment: fixed;
 }
+
+
+#special:first-letter{
+  font-size: 10px;
+
+
+}
