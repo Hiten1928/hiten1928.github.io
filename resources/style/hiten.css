@@ -55,6 +55,10 @@ box-shadow: 0 10px 10px -10px #8c8b8b inset;
   margin-bottom:32px
 }
 
+#myNavbar{
+  font-size: 1.2em
+}
+
 .display{
     position: relative;
     background-position: center;
