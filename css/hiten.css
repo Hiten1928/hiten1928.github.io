@@ -25,6 +25,7 @@
   display: flex !important;
   justify-content: space-evenly !important;
   height: 49px !important;
+  padding: 2.5rem 1rem !important;
 }
 
 .profile {
