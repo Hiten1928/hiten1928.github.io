@@ -16,6 +16,11 @@
   padding-bottom: 16px !important;
 }
 
+.row {
+  margin-right: 10vh !important;
+  padding-top: 10vh !important;
+}
+
 .navbar {
   display: flex !important;
   justify-content: space-evenly !important;
