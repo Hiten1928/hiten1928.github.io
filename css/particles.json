@@ -1,14 +1,14 @@
 {
   "particles": {
     "number": {
-      "value": 100,
+      "value": 15,
       "density": {
         "enable": true,
         "value_area": 800
       }
     },
     "color": {
-      "value": "#ffffff"
+      "value": "#000"
     },
     "shape": {
       "type": "circle",
@@ -18,10 +18,15 @@
       },
       "polygon": {
         "nb_sides": 5
+      },
+      "image": {
+        "src": "../images/rit-logo.jpg",
+        "width": 100,
+        "height": 100
       }
     },
     "opacity": {
-      "value": 0.8,
+      "value": 0.5,
       "random": true,
       "anim": {
         "enable": false,
@@ -31,7 +36,7 @@
       }
     },
     "size": {
-      "value": 7,
+      "value": 10,
       "random": true,
       "anim": {
         "enable": false,
@@ -42,9 +47,9 @@
     },
     "line_linked": {
       "enable": true,
-      "distance": 200,
-      "color": "#ffffff",
-      "opacity": 0.2,
+      "distance": 300,
+      "color": "#000",
+      "opacity": 0.4,
       "width": 2
     },
     "move": {

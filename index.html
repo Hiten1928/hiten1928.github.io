@@ -1,478 +1,527 @@
-<!DOCTYPE html>
-
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-122995102-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    gtag('config', 'UA-122995102-1');
-  </script>
-
-  <title>PortFolio</title>
-
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <link
-    href="https://fonts.googleapis.com/css?family=Bungee+Inline|Libre+Barcode+39+Text|Libre+Barcode+128+Text|Open+Sans:600i|Pacifico"
-    rel="stylesheet">
-
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-    integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
-
-  <link rel="stylesheet" href="css/hiten.css">
-  <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Frijole|Righteous" rel="stylesheet">
+  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
-    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+
+  <!-- Animate CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+  <!-- Font Awesome CSS -->
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+
+  <title>Hiten's Portfolio</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+
 </head>
 
-
 <body>
-  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark animated fadeInDown fixed-top">
+    <a class="navbar-brand animated fadeInUp" href="#" style="animation-delay: 1s">Hiten Gupta</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="home">
-    <div class="navbar-brand">
-      <a href="#about" class="w3-bar-item w3-button"><i class="fas fa-user-graduate"></i> ABOUT</a>
-    </div>
-    <div class="navbar-brand">
-      <a href="#skills" class="w3-bar-item w3-button"><i class="far fa-keyboard"></i> SKILLS</a>
-    </div>
-    <div class="navbar-brand">
-      <a href="#projects" class="w3-bar-item w3-button"><i class="fas fa-folder-open"></i></i> PROJECTS</a>
-    </div>
-    <div class="navbar-brand">
-      <a href="#research" class="w3-bar-item w3-button"><i class="fa fa-th"></i> RESEARCH</a>
-    </div>
-    <div class="navbar-brand">
-      <a href="#research" class="w3-bar-item w3-button"><i class="fa fa-th"></i> RESEARCH</a>
-    </div>
-    <div class="navbar-brand">
-      <a href="#work" class="w3-bar-item w3-button"><i class="fas fa-briefcase"></i> WORK</a>
-    </div>
-    <div class="navbar-brand">
-      <a href="resources/Hiten.pdf" class="w3-bar-item w3-button"><i class="fas fa-file"></i> RESUME</a>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto" id="menu">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <!-- <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Computer Animation Assignments
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="/compAnimation/a0/">Assignment #0</a>            
+          </div>
+        </li> -->
+      </ul>
+      <span class="navbar-text animated fadeInDown" style="animation-delay: 1s">
+        Software Engineering graduate seeking seeking Full time opportunitites May '20
+      </span>
     </div>
   </nav>
-
-  <div id="particles-js"></div>
   <div class="container-fluid">
-
+    <!-- About -->
     <div class="row" id="about">
-
+      <div id="particles-js"></div>
       <div class="col-lg-6 left col-centered">
-        <img src="cover3.jpg" alt="cover image" class="profile rounded-circle animated fadeIn">
+        <img src="images/profile_photo.jpg" alt="" class="profile rounded-circle animated fadeIn"
+          style="animation-delay: 1s;">
+        <div class="links">
+          <a href="mailto:hitengupta98@gmail.com"><i class="fas fa-envelope animated fadeInLeft"
+              style="animation-delay: 1.2s;"></i></a>
+          <a href="https://www.github.com/hiten1928"><i class="fab fa-github animated fadeInLeft"
+              style="animation-delay: 1.3s;"></i></a>
+          <a href="https://www.linkedin.com/in/hiten1928/"><i class="fab fa-linkedin-in animated fadeInLeft"
+              style="animation-delay: 1.4s;"></i></a>
+          <a href="https://www.facebook.com/hiten3008"><i class="fab fa-facebook-f animated fadeInLeft"
+              style="animation-delay: 1.5s;"></i></a>
+        </div>
       </div>
       <div class="col-lg-6 right col-centered">
-        <p style="color:#d3d3d3 ; font-family: 'Open Sans', sans-serif; font-size: 20px;">I am a seasoned Software
-          Developer</span>, completed my Bachelors in the field of Computer Science. I have worked in web development,
-          Cloud
-          environment, Artificial Intelligence and Machine Learning. I have completed projects that are used by NIIT
-          Technologies and is a part of their coursework. Some of my personal projects include Data Science as well,
-          ranging
-          from Data Analytics to making predictions using pre-defined Algorithms and using API's</p><br>
-        <p class="" style="color:#d3d3d3; font-family: 'Open Sans', sans-serif;">Currently pursuing <span
-            class="w3-xlarge"> Masters
-            of
-            Science</span> in <span class="w3-xlarge">Software Engineering </span> from <span class="w3-xlarge">
-            Rochester
-            Institute of Technology, NY, USA</span></p>
-        <br>
-        <p class="" style="color:#d3d3d3 ;font-family: 'Open Sans', sans-serif; font-size: 24px"><span
-            class="w3-xlarge">I
-            plan</span>
-          to
-          develop software in the cloud environments and also develop machine learning algorithms that can be used
-          widely
-          in sectors of buiness and healthcare. </p>
+        <h1 class="title">Hi, I'm Hiten</h1>
+        <p>Thank you for visiting my website. Here you will find out all the information you need about me. Feel free to
+          contact me.</p>
+        <div class="links"><a href="tel:+1-585-978-5229"><i class="fas fa-phone"></i></a></div>
       </div>
     </div>
-  </div>
-  <!-- ABOUT SECTION -->
+    <br>
+    <!-- Education -->
+    <h1 class="animated fadeIn wow section-heading" id="education">Education</h1>
+    <br>
+    <div class="row education">
+      <div class="col-md-6">
+        <div class="card animated fadeInLeft wow" style="animation-delay: 0.3s;">
+          <img class="card-img-top" src="images/rit-logo.jpg" alt="Card image cap"
+            style="width: 50%; margin: 5px auto;">
+          <div class="card-body">
+            <h1 class="card-title">Rochester Institute of Technology</h1>
+            <i>Masters of Science in Software Engineering </i>
+            <br>
+            <b>GPA: 3.60/4.00</b>
+            <br>
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseRele" aria-expanded="true"
+              aria-controls="collapseRele">
+              Relevant Courses <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="collapseRele" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Foundations of Software Engineering</li>
+                  <li class="list-group-item">Software Modelling</li>
+                  <li class="list-group-item">Research Methods</li>
+                  <li class="list-group-item">Software Quality Engineering</li>
+                  <li class="list-group-item">Software Process Engineering</li>
+                  <li class="list-group-item">Software Evolution and Reengineering</li>
+                  <li class="list-group-item">Engineering Accessibile Software</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-muted" style="text-align: center;">
+            Graduating May '20
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card animated fadeInLeft wow" style="animation-delay: 0s;">
+          <img class="card-img-top" src="images/rtu_logo.jpg" alt="Card image cap"
+            style="width: 19%; margin: 5px auto;">
+          <div class="card-body">
+            <h1 class="card-title">Rajasthan Technical University(RTU)</h1>
+            <i>Bachelors of Technology in Computer Science</i>
+            <br>
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseNMIM" aria-expanded="true"
+              aria-controls="collapseNMIM">
+              Relevant Courses <i class="fas fa-chevron-down"></i>
+            </button>
+            <div id="collapseNMIM" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item">Design and Analysis of Algorithms</li>
+                  <li class="list-group-item">Data Structures</li>
+                  <li class="list-group-item">Intelligent Systems</li>
+                  <li class="list-group-item">Mobile Application Development</li>
+                  <li class="list-group-item">Web Application Development</li>
+                  <li class="list-group-item">Foundation of Operating Systems</li>
+                  <li class="list-group-item">Software Engineering</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="card-footer text-muted" style="text-align: center;">
+            Graduated May '17
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- Projects -->
+    <h1 class="animated fadeIn wow section-heading" id="projects">Projects</h1>
+    <div class="row">
+      <div class="col-md-3 animated fadeInRight wow" style="animation-delay: 0s;">
+        <div class="card">
+          <img class="card-img-top" src="images/sam2018.jpg" alt="Card image cap"
+            style="width: 100%; margin: 5px auto;">
+          <div class="card-body">
+            <h1 class="card-title">Research Paper Submission Platform</h1>
+            <ul class="list-group list-group-flush" style="text-align: left;">
+              <li class="list-group-item"> Developed a Web Based Online Paper submission platform, which helped authors
+                to submit papers, committee members to vote and review papers, chairs to assign and perform verdict on
+                the papers and the admins to manage the website.</li>
+              <li class="list-group-item"> Responsibilities include architecture, design, implementation and deployment
+                of the software from the requirements given. </li>
+            </ul>
+          </div>
+          <div class="card-footer text-muted" style="text-align: center;">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTechnology1"
+                aria-expanded="true" aria-controls="collapseOne">
+                Tools & Technologies
+              </button>
+              <a href="https://github.com/Hiten1928/Software-Architecture-Mining-2018" class="btn btn-link">Github</a>
+            </h5>
+            <div id="collapseTechnology1" class="collapse" aria-labelledby="headingOne" data-parent=".card-footer">
+              <div class="card-text">
+                <ul class="list-group list-group-flush" style="text-align: left;">
+                  <li class="list-group-item"><b>Technology used:</b> Ruby on Rails, Haml, Sass, PostgreSQL.</li>
+                  <li class="list-group-item"><b>Tools used:</b> Heroku cloud, GitHub, Lucid Chart, Sublime Text</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 animated fadeInRight wow" style="animation-delay: 0.3s;">
+        <div class="card">
+          <img class="card-img-top" src="images/checkers.jpg" alt="Card image cap"
+            style=" width: 55%; margin: 5px auto;">
+          <div class="card-body">
+            <h1 class="card-title">Web Checkers</h1>
+            <ul class="list-group list-group-flush" style="text-align: left;">
+              <li class="list-group-item"> Developed a Web based online checkers game using an OpenUP approach for
+                software development in a team of 4 students.</li>
+              <li class="list-group-item"> Responsibilities include managing the project, gathering requirement,
+                performing sprint retrospective, development and testing of the software and mentoring team members of
+                the spikes. </li>
+            </ul>
+          </div>
+          <div class="card-footer text-muted" style="text-align: center;">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTechnology2"
+                aria-expanded="true" aria-controls="collapseOne">
+                Tools & Technologies
+              </button>
+              <!-- <a href="https://github.com/dkaushik95/2171-swen-610-01-7-teamOreo" class="btn btn-link">Github</a> -->
+            </h5>
+            <div id="collapseTechnology2" class="collapse" aria-labelledby="headingOne" data-parent=".card-footer">
+              <div class="card-text">
+                <ul class="list-group list-group-flush" style="text-align: left;">
+                  <li class="list-group-item"><b>Technology used:</b> jQuery, Free marker Templating Engine, CSS, Spark
+                    Java</li>
+                  <li class="list-group-item"><b>Tools used:</b> GitHub, Trello, Lucid Chart, Slack, JaCoCo Code
+                    coverage tool, Mockito mocking tool, Junit for tests</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 animated fadeInRight wow" style="animation-delay: 0.5s;">
+        <div class="card">
+          <img class="card-img-top" src="images/camp.jpeg" alt="Card image cap" style=" width: 31%; margin: 5px auto;">
+          <div class="card-body">
+            <h1 class="card-title">YelpCamp</h1>
+            <ul class="list-group list-group-flush" style="text-align: left;">
+              <li class="list-group-item"> Developed a • Full Stack Node.js application using RESTful routing and mongo
+                DB for selecting and reviewing camping locations. The application supports the CRUD functionalities and
+                user auth (using passportJS and expressJS). </li>
+              <li class="list-group-item">Responsibilities included designing the software and the process, development
+                and deployment of the code.</li>
+            </ul>
+          </div>
+          <div class="card-footer text-muted" style="text-align: center;">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTechnology3"
+                aria-expanded="true" aria-controls="collapseOne">
+                Tools & Technologies
+              </button>
+              <a href="https://shrouded-hamlet-21237.herokuapp.com/" class="btn btn-link">Deployed</a>
+            </h5>
+            <div id="collapseTechnology3" class="collapse" aria-labelledby="headingOne" data-parent=".card-footer">
+              <div class="card-text">
+                <ul class="list-group list-group-flush" style="text-align: left;">
+                  <li class="list-group-item"><b>Technology used:</b> ExpressJS, PassportJS, ES6, MongoDB</li>
+                  <li class="list-group-item"><b>Tools used:</b> StarUML, Agile with Sprints.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 animated fadeInRight wow" style="animation-delay: 0.7s;">
+        <div class="card">
+          <img class="card-img-top" src="images/otherprojects.png" alt="Card image cap"
+            style=" width: 100%; margin: 5px auto;">
+          <div class="card-body">
+            <h1 class="card-title">Other Projects</h1>
+            <ul class="list-group list-group-flush" style="text-align: left;">
+              <li class="list-group-item"> I have 47 projects and 4 project contributions on Github. Click on the link
+                below to see it all!</li>
+            </ul>
+          </div>
+          <div class="card-footer text-muted" style="text-align: center;">
+            <h5 class="mb-0">
+              <a href="https://github.com/Hiten1928" class="btn btn-link">Github</a>
+            </h5>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Experience -->
+    <h1 class="animated fadeIn wow section-heading" id="experience">Experience</h1>
+    <div class="row">
+      <ul class="timeline">
+        <li class="animated fadeInLeft wow">
+          <div class="timeline-badge"><i class="fas fa-flask"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Graduate Assistant</h4>
+              <p>Software Engineering Department at RIT, Rochester NY</p>
+              <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Aug ’17- May '18</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>• Designed and developed performance analysis algorithm for the performance of a self-adaptive system
+                based on response time of the incoming requests for Unmanned Aerial Vehicle (UAV’s).</p>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="timeline-inverted animated fadeInRight wow">
+          <div class="timeline-badge"><i class="fas fa-flask"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Teaching Assistant - Web Engineering</h4>
+              <p>Software Engineering Department at RIT, Rochester NY</p>
+              <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jan ’18- Present</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>TA for Web Engineering, where my role is to formulate a project which involves most of the web
+                technologies used today including OAuth, Offline first, Responsive Design, CORS, Backend support and API
+                implementations.</p>
+            </div>
+          </div>
+        </li> -->
+        <li class="timeline-inverted animated fadeInRight wow">
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Part-Time Employee - Design & Backend</h4>
+              <p>Collegepond Private Limited, Mumbai</p>
+              <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Mar '17 - Jul '17</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Created Scripts for Generating Posters from Data. My script imports data from Google Sheets and exports
+                them into poster from the Photoshop Script.
+                Designed Templates for various kinds of posters.
+                Help structure the backend of the Collegepond Application and Created a front-end for the admins to add
+                tests and questions for GRE Quants and Verbal.
+              </p>
+            </div>
+          </div>
+        </li>
+        <!-- <li class="timeline-inverted animated fadeInRight wow">
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Intern- Core Development Team</h4>
+              <p>UActive Technology Private Limited, Mumbai</p>
+              <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jun '16 - Jul '16
+                </small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Modeled a landing page for the app with the requirements specification.
+                Programmed the website with HTML, JavaScript and animated it using CSS3.
+                Used Photoshop to customize assets.
+                Optimized the web page for a constant 60fps animations using Page-speed insights
+              </p>
+            </div>
+          </div>
+        </li> -->
+        <!-- <li class="animated fadeInLeft wow">
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Intern- Core Development Team</h4>
+              <p>Zaprest Technologies Private Limited, Delhi</p>
+              <p><small class="text-muted"><i class="fas fa-calendar-alt"></i>May '16 - Jun '16</small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Improved the UI of the website by adding material design patterns, changing the bootstrap properties
+                and adding surfaces to relevant information.
+                Made the website responsive and made it work for mobile.
+                Created app manifests so that the website can be recognized as an app in mobile devices.
+                Added service worker API for offline functionality, Indexed DB for offline storage, and Polymer for
+                offline app components.
 
+              </p>
+            </div>
+          </div>
+        </li> -->
+        <!-- <li class="timeline-inverted animated fadeInRight wow">
+          <div class="timeline-badge"><i class="fas fa-code"></i></div>
+          <div class="timeline-panel">
+            <div class="timeline-heading">
+              <h4 class="timeline-title">Teaching Assistant- Shell Scripting</h4>
+              <p>National Payments Corporation of India (NPCI), Mumbai</p>
+              <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> May '15 - Jun '15
 
+                </small></p>
+            </div>
+            <div class="timeline-body">
+              <p>Assisted a teacher in training the employees on Linux, an overview and basic of Shell Scripting, file
+                management, system administrator and cron jobs.
+                Facilitated migration from Windows Servers to Linux Servers.
+                Helped in making scripts for the servers of NPCI, which automate security logs, scheduled maintenance
+                and auto shut down of the system after a specific time. It also marks the attendance of the employees
+                working in the office.
+              </p>
+            </div>
+          </div>
+        </li> -->
+      </ul>
+      <!-- <section id="cd-timeline">
+        <div class="line"></div>
+        <div class="cd-timeline-block-left">
+          <div class="cd-date">
+            Aug'17 - Present
+          </div>
 
+          <div class="cd-timeline-content">
+            <h2>Graduate Assistant</h2>
+            <p><i>Software Engineering Department at RIT, Rochester NY</i></p>
+            <p>Implemented a tool to detect tags of source code of 200 java projects variable names and used different POS tagger to evaluate which tagger works the best in which type of variable name, which will determine an algorithm to increase the accuracy of tagging source code variable names.</p>
+          </div>
+        </div>
+        <div class="cd-timeline-block-right">
+          <div class="cd-date">
+            Aug'17 - Present
+          </div>
 
+          <div class="cd-timeline-content">
+            <h2>Graduate Assistant</h2>
+            <p><i>Software Engineering Department at RIT, Rochester NY</i></p>
+            <p>Implemented a tool to detect tags of source code of 200 java projects variable names and used different POS tagger to evaluate which tagger works the best in which type of variable name, which will determine an algorithm to increase the accuracy of tagging source code variable names.</p>
+          </div>
+        </div>
+        <div class="cd-timeline-block-left">
+          <div class="cd-date">
+            Aug'17 - Present
+          </div>
 
+          <div class="cd-timeline-content">
+            <h2>Graduate Assistant</h2>
+            <p><i>Software Engineering Department at RIT, Rochester NY</i></p>
+            <p>Implemented a tool to detect tags of source code of 200 java projects variable names and used different POS tagger to evaluate which tagger works the best in which type of variable name, which will determine an algorithm to increase the accuracy of tagging source code variable names.</p>
+          </div>
+        </div>
+        <div class="cd-timeline-block-right">
+          <div class="cd-date">
+            Aug'17 - Present
+          </div>
 
-  <!-- Features Section -->
-
-
-  <div class="w3-container w3-center w3-padding-16" style="padding:128px 16px" id="skills">
-    <p class="w3-center w3-padding-16"
-      style="color: white; font-family: 'Libre Barcode 128 Text', cursive; font-size:150px">
-      TECHNICAL
-      SKILLS</p>
-    <div class="w3-row-padding" style="margin-top:64px">
-      <div class="w3-third w3-section fadeInLeft">
-        <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32">Novice</li>
-          <li class="w3-padding-8"><b>R</b></li>
-          <li class="w3-padding-8"><b>Google Cloud Platform</b></li>
-          <li class="w3-padding-8"><b>Ruby On Rails</b></li>
-          <li class="w3-padding-8"><b>Docker</b></li>
-          </li>
+          <div class="cd-timeline-content">
+            <h2>Graduate Assistant</h2>
+            <p><i>Software Engineering Department at RIT, Rochester NY</i></p>
+            <p>Implemented a tool to detect tags of source code of 200 java projects variable names and used different POS tagger to evaluate which tagger works the best in which type of variable name, which will determine an algorithm to increase the accuracy of tagging source code variable names.</p>
+          </div>
+        </div>
+      </section> -->
+    </div>
+    <!-- Skills -->
+    <h1 class="animated fadeIn wow section-heading" id="skills">Skills</h1>
+    <div class="row">
+      <div class="col-lg-3 animated fadeInLeft wow">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item active"><b>Areas of Intrests</b></li>
+          <li class="list-group-item">Full Stack Web Development</li>
+          <li class="list-group-item"><i class="fas fa-mobile-alt"></i> Mobile Development</li>
+          <li class="list-group-item">Machine Learning</li>
         </ul>
       </div>
-      <div class="w3-third">
-        <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-red w3-xlarge w3-padding-48">Expert</li>
-          <li class="w3-padding-8"><b>Asp.NET core</b></li>
-          <li class="w3-padding-8"><b>HTML</b></li>
-          <li class="w3-padding-8"><b>CSS</b></li>
-          <li class="w3-padding-8"><b>JavaScript</b></li>
-          <li class="w3-padding-8"><b>Node.JS</b></li>
-          <li class="w3-padding-8"><b>Semantic UI</b></li>
-          <li class="w3-padding-8"><b>Express.JS</b></li>
-          <li class="w3-padding-8"><b>Java</b></li>
-          <li class="w3-padding-8"><b>MongoDB</b></li>
-          <li class="w3-padding-8"><b>RESTful Routing</b></li>
-          </li>
-          </li>
+      <div class="col-lg-3 animated fadeInLeft wow">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item active">Programming Languages</li>
+          <li class="list-group-item">Ruby</li>
+          <li class="list-group-item"><i class="fab fa-python"></i>
+
+            Python</li>
+          <li class="list-group-item">Java</li>
+          <li class="list-group-item">MATLAB</li>
+          <li class="list-group-item">C#</li>
+          <li class="list-group-item"><i class="fas fa-terminal"></i>
+
+            Shell Scripting</li>
         </ul>
       </div>
-      <div class="w3-third w3-section">
-        <ul class="w3-ul w3-white w3-hover-shadow">
-          <li class="w3-black w3-xlarge w3-padding-32">Intermediate</li>
-          <li class="w3-padding-8"><b>Python</b></li>
-          <li class="w3-padding-8"><b>Django</b></li>
-          <li class="w3-padding-8"><b>JQuery</b></li>
-          <li class="w3-padding-8"><b>MySQL</b></li>
+      <div class="col-lg-3 animated fadeInLeft wow">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item active"><i class="fab fa-internet-explorer"></i>
+            Web Development</li>
+          <li class="list-group-item"><i class="fab fa-html5"></i>
+
+            HTML</li>
+          <li class="list-group-item"><i class="fab fa-css3-alt"></i>
+
+            CSS</li>
+          <li class="list-group-item">Ruby on Rails</li>
+          <li class="list-group-item"><i class="fab fa-react"></i>
+
+            ReactJS</li>
+          <li class="list-group-item">Handlebars</li>
+          <li class="list-group-item"><i class="fab fa-microsoft"></i>
+
+            ASP.NET</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 animated fadeInLeft wow">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item active"><i class="fas fa-database"></i>
+            Databases</li>
+          <li class="list-group-item">MySQL</li>
+          <li class="list-group-item">PostreSQL</li>
+          <li class="list-group-item">SQLite</li>
+        </ul>
+      </div>
+      <div class="col-lg-3 animated fadeInLeft wow">
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item active">Tools I love</li>
+          <li class="list-group-item">Sublime Text</li>
+          <li class="list-group-item">IntelliJ</li>
+          <li class="list-group-item">Adobe Creative Suite</li>
+          <li class="list-group-item">Linux</li>
+          <li class="list-group-item">Git</li>
+          <li class="list-group-item">Trello</li>
+          <li class="list-group-item">Slack</li>
         </ul>
       </div>
     </div>
+    <!-- Awards and Achievements -->
+    <!-- <h1 class="animated fadeIn wow section-heading" id="awards">Awards & Achievements</h1>
+    <div class="row"></div> -->
+    <!-- Extracurricular -->
+    <!-- <h1 class="animated fadeIn wow section-heading" id="extra">Extracurricular</h1>
+    <div class="row"></div> -->
+
   </div>
 
+  <footer></footer>
 
-  <p class="w3-center w3-padding-16"
-    style="color: white; font-family: 'Libre Barcode 128 Text', cursive; font-size:150px" id="work">
-    EXPERIENCE
-  </p>
-  <div class="row">
-    <ul class="timeline centered" style="color: white">
-      <li class="timeline-inverted animated fadeInRight wow">
-        <div class="timeline-badge"><i class="fas fa-flask"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Software Developer Intern</h4>
-            <p>IBM, Silicon Valley Laboratory</p>
-            <p style="color: white"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Sep ’18- July
-                '19</small></p>
-          </div>
-          <div class="timeline-body">
-            <p>• Working as the part of Unified Integration and Governance <br>
-              • Performing tasks related to Sanity Validation in the pipeline
-            </p>
-          </div>
-        </div>
-      </li>
-      <li class="animated fadeInLeft wow">
-        <div class="timeline-badge"><i class="fas fa-flask"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Graduate Assistant</h4>
-            <p>Software Engineering Department at RIT, Rochester NY</p>
-            <p><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jan ’18- June
-                '18</small></p>
-          </div>
-          <div class="timeline-body">
-            <p>• Architected Microservices orchestration for autonomous testing on the fly. The orchestration enabled to
-              pin point the location for the failed microservice. <br>
-              • Analyzed the performance of a self-adaptive system based on response time of the incoming requests.
-            </p>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-inverted animated fadeInRight wow">
-        <div class="timeline-badge"><i class="fas fa-flask"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Research Assistant</h4>
-            <p>Software Engineering Department at RIT, Rochester NY</p>
-            <p style="color: white"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jan ’18- May
-                '18</small></p>
-          </div>
-          <div class="timeline-body">
-            <p>• Analyzed scheduling in a load balancer of a MAPE-K loop in any autonomous system. Orchestrated
-              algorithm to schedule task relative to ‘hard real time’ in a Real Time Autonomous System.</p>
-          </div>
-        </div>
-      </li>
-      <li class="animated fadeInLeft wow">
-        <div class="timeline-badge"><i class="fas fa-code"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Part-Time Employee -Backend</h4>
-            <p>HIC Global Solutions Pvt. Ltd</p>
-            <p style="color: white"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Mar '17 - Jul
-                '17</small></p>
-          </div>
-          <div class="timeline-body">
-            <p>Created programs to automate testing of Salesforce.com platform dashboard for clients. The platforms were
-              extracted from the client end which was built on Apex.com platform. <br>
-              The scripts created the customization on one page and delivered the option of customization on the UI
-              level.
-            </p>
-          </div>
-        </div>
-      </li>
-      <li class="timeline-inverted animated fadeInRight wow">
-        <div class="timeline-badge"><i class="fas fa-code"></i></div>
-        <div class="timeline-panel">
-          <div class="timeline-heading">
-            <h4 class="timeline-title">Intern- DevOps Team</h4>
-            <p>NIIT Technologies Private Limited, Delhi</p>
-            <p style="color: white"><small class="text-muted"><i class="fas fa-calendar-alt"></i> Jun '16 - Aug '16
-              </small></p>
-          </div>
-          <div class="timeline-body">
-            <p>• Integrated the java spring framework with the development environment using tomcat server.<br>
-              • Developed the internal app used by approx. 100 new interns.<br>
-              • Headed the team of interns working on ‘Digital-Transformation’ project.<br>
-
-            </p>
-          </div>
-        </div>
-      </li>
-    </ul>
-  </div>
-
-
-
-
-
-
-
-
-  <!--  RESEARCH SECTION -->
-
-
-
-  <div class="w3-container" id="research">
-    <p class="w3-center  w3-padding-48"
-      style="color: white; font-family: 'Libre Barcode 128 Text', cursive; font-size:160px">
-      <span>RESEARCH</span></p>
-    <div class="w3-content w3-center w3-border w3-round-large" style="max-width:700px; margin-top:40px">
-      <div class="w3-row w3-center w3-card w3-padding">
-        <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-          <div class="w3-col s6 tablink w3-xlarge">Till - Date</div>
-        </a>
-        <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-          <div class="w3-col s6 tablink w3-xlarge">Future - Date</div>
-        </a>
-      </div>
-
-      <div id="Eat" class="w3-container research w3-padding-48 w3-card w3-center"
-        style="background: linear-gradient(#EDBFAF,transparent)">
-        <h4><b>Self-Adaptive Systems</b></h4>
-        <p style="color: white;">My research was centered at enhancing the reliability and performance of self-adaptive
-          systems as a whole.
-          Self-Adaptive Systems are ubiquitous, ranging from this website you are watching to IBM Watson. My work
-          focussed in increasing the resiliency of the system by making it pro-active about the future changes that the
-          system should be prepared for. </p>
-        <p style="color: white;">I developed an algorithm that would include Markov's Decision Process and enhance its
-          decision making process by incorporating factors necessari for <b>safety critical systems</b> such as Unmanned
-          Aerial Vehicles(UAV's)</p>
-        <p>I am a Graduate Assistant with the Department of Software Engineering in Rochester Institute of Technology.
-        </p><br>
-
-        <h4><b>Microservices</b></h4>
-        <p style="color: white;">Along with Self-Adaptive systems I have worked in the area of Microservices and
-          focussed
-          in the Testing of Microservices. My work was guided by the fact that in a complex microservices it is not
-          possible to pin-point the location of the microservices which fail and it is a tedious task that falls on the
-          developers domain. This problem can be solved in order to make microservices testing feasible and much more
-          granular in nature.</p>
-        <p>I am working with Prof. Naveen Sharma, Department Chair(Software Engineering), RIT in this topic.</p>
-      </div>
-
-      <div id="Drinks" class="w3-container research w3-padding-48 w3-card w3-center">
-        <h4><b>Software Evolution(Performance Regression)</h4>
-        <p style="color: white;">My future plans are to apply the pro-active nature of self adaptive systems to the
-          domain of Software Evolution and enhance the process of software maintaince by automating the task of
-          <b>reduction in Performance Regression</b>.</p><br>
-        <h4><b>User Reviews Matter!!</h4>
-        <p style="color: white;"> I plan to analyze user reviews for additional features that can be used for Software
-          Maintanence and for developers with the features that can enable to better maintain the software. A user
-          review is a vast pool of features which can be used in many different ways for the performance enhancement of
-          the software.</b>.</p><br>
-
-      </div>
-    </div>
-  </div>
-
-
-  <!-- PROJECTS SECTION -->
-
-
-
-  <div class="w3-container" style="padding:10px 16px;" id="projects">
-    <p class="w3-center w3-padding-48"
-      style="color: white; font-family: 'Libre Barcode 39 Text', cursive; font-size:150px">PROJECTS
-    </p>
-    <div class="w3-row-padding" style="color: white; margin-top:64px">
-      <div class="w3-col l3 m6 w3-margin-bottom fadeIn">
-        <div class="w3-card" style="color: white">
-          <div class="w3-container">
-            <h3>Sentiment Analysis</h3>
-            <p class="w3-opacity">The application takes game(any console) reviews and predicts the aspects, sentiment in
-              a custom review entered by the user.</p>
-            <p><a href="https://github.com/Hiten1928/AspectBasedSentimentalAnalysis"><button
-                  class="w3-button w3-light-grey"><i class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>RGB Guessing game</h3>
-            <p class="w3-opacity">RGB color guessing game built in JavaScript ES5. The application has event handlers
-              using vanilla JS, deployed on Heroku. </p>
-            <p><a href="https://colorgame007.herokuapp.com/" target="_blank"><button class="w3-button w3-light-grey" s>
-                  Play!</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>Student GradeBook</h3>
-            <p class="w3-opacity">Application to store grades for students in any institute and perform various
-              stastical operations, using ASP.NET core and speech recognition.</p>
-            <p><a href="https://github.com/Hiten1928/CSharp-GradeBookApplication"><button
-                  class="w3-button w3-light-grey "><i class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>Conference Portal</h3>
-            <p class="w3-opacity">Application for a conference for Software Architecture. It performs the REVIEW, ACCEPT
-              and SUBMIT fucntionalities needed for a conference.</p>
-            <p><a href="https://github.com/Hiten1928/SAM-2018"><button class="w3-button w3-light-grey "><i
-                    class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>Docker -Jekyll</h3>
-            <p class="w3-opacity">A custom image by modifying the official image of the Jekyll and custom Dockerfile in
-              ruby. It is available on Docker hub as well</p>
-            <p><a href="https://github.com/Hiten1928/Docker_Jekyll_testApp"><button class="w3-button w3-light-grey"><i
-                    class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>BlockChain</h3>
-            <p class="w3-opacity">This is a basic prototype of a block chain where the block hash is encoded manually
-              right now. It uses the Block Hashing Algorithm basicallly.</p>
-            <p><a href="https://github.com/Hiten1928/blockchain_goLang"><button class="w3-button w3-light-grey"><i
-                    class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>WebCheckers</h3>
-            <p class="w3-opacity">Application of American Checkers online game. It is built on SPARK framework of java 8
-              in Agile Environment and using various modelling tools. </p>
-            <p><a href="https://github.com/Hiten1928/Webcheckers"><button class="w3-button w3-light-grey"><i
-                    class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-      <div class="w3-col l3 m6 w3-margin-bottom">
-        <div class="w3-card">
-          <div class="w3-container">
-            <h3>Docker - Node.JS</h3>
-            <p class="w3-opacity">A Node.js express app deployed on a simple custom built Docker image. Easily
-              Deployable and just requires docker installed. Front End is defined.</p>
-            <p><a href="https://github.com/Hiten1928/Docker-Node.js"><button class="w3-button w3-light-grey"><i
-                    class="fa fa-envelope"></i> Github</button></a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-
-  <!--CONTACT SECTION -->
-
-
-  <div class="container-fluid" id="contact">
-    <div class="row" style="color: white; padding-top: 20% !important;">
-      <div class="col-lg-6 left">
-        <div><span class="w3-xlarge w3-border-teal w3-bottombar w3-round">Contact</span></div>
-        <h3 style="padding-top: 4%;">Address</h3>
-        <p><b>Silicon Valley</b></p>
-        <p><i class="fa fa-map-marker w3-text-teal w3-xlarge"></i> San Jose, CA </p>
-        <p><i class="fa fa-phone w3-text-teal w3-xlarge"></i>  +1 (585)978-5229</p>
-        <p>hitengupta98@gmail.com</p>
-        <a class="w3-xxxlarge w3-text-black" href="https://github.com/Hiten1928"><i
-            class="fab fa-github-square"></i></a>
-        <a class="w3-xxxlarge w3-text-black" style="padding-left: 24px" href="https://www.linkedin.com/in/hiten1928/"><i
-            class="fab fa-linkedin-in"></i></a>
-      </div>
-      <div class="col-lg-6 right">
-        <form class="w3-container w3-card-4 w3-padding-24 w3-white" action="mailto:hitengupta98@gmail.com"
-          enctype="text/plain" method="post">
-          <div class="w3-section">
-            <label>Name</label>
-            <input class="w3-input" type="text" name="Name" required>
-          </div>
-          <div class="w3-section">
-            <label>Email</label>
-            <input class="w3-input" type="text" name="Email" required>
-          </div>
-          <div class="w3-section">
-            <label>Message</label>
-            <input class="w3-input" type="text" name="Message" required>
-          </div>
-          <input class="w3-check" type="checkbox" checked name="Like">
-          <label>I Like it!</label>
-          <button type="submit" class="w3-button w3-right w3-theme">Send</button>
-        </form>
-      </div>
-    </div>
-  </div>
-
-
-
-  <!-- Footer -->
-
-
-  <footer class="w3-container" style="display: flex; justify-content: space-evenly; padding-top: 10%;">
-    <div>
-      <p class="w3-medium" style="color: white;padding-left: 16px"><i class="far fa-copyright"></i>Hiten Gupta</p>
-      <a href="#home" class="w3-button w3-light-grey" style="margin: 0px auto;"><i
-          class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
-    </div>
-  </footer>
-
-
-
-  <!-- JAVASCRIPT -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS --> -->
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -488,10 +537,26 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"
     integrity="sha256-z6FznuNG1jo9PP3/jBjL6P3tvLMtSwiVAowZPOgo56U=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    new WOW().init();
+    particlesJS.load('particles-js', 'css/particles.json', function () {
+      console.log('callback - particles.js config loaded');
+    });
+  </script>
+  <script>
 
+    $(function () {
+      var header = $('nav');
+      $(window).scroll(function () {
+        if ($(window).scrollTop() <= 30) {
+          header.css('box-shadow', '0px 0px ' + $(window).scrollTop() + 'px rgba(0, 0, 0, 0.4)');
+        } else {
+          header.css('box-shadow', '0px 0px 30px rgba(0, 0, 0, 0.4)');
+        }
+      });
+    })
+  </script>
 
-  <script src="resources/scripts/custom_scripts.js" type=" text/javascript"> </script>
-  <script src="/css/particles.json" type="text/javascript"></script>
 </body>
 
 </html>
