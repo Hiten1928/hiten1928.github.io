@@ -1,7 +1,5 @@
 # PortfolioV2
 
-![PortfolioV2](/images/portfolio1.gif)
-
 # Sections
 
 - Home
