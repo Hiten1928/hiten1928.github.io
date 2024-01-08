@@ -260,94 +260,16 @@ const degrees = {
       alt_name: "RIT",
       duration: "2017 - 2020",
       descriptions: [
-        // "⚡ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        // "⚡ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        // "⚡ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
       ],
       website_link: "http://www.rit.com/",
     }
   ],
 };
 
-const certifications = {
-  certifications: [
-    // {
-    //   title: "M0001: MongoDB Basics",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-    //   alt_name: "MongoDB University",
-    //   // color_code: "#2AAFED",
-    //   color_code: "#47A048",
-    // },
-    // {
-    //   title: "Hackathon",
-    //   subtitle: "Hack The Mountains",
-    //   logo_path: "hackathon1.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1Y-HT1flWDfeyfnfqVr3ubNgGIcnuUEYt/view?usp=sharing",
-    //   alt_name: "hackathon",
-    //   color_code: "#E2405F",
-    // },
-    // {
-    //   title: "A300: Atlas Security",
-    //   subtitle: "MongoDB University",
-    //   logo_path: "mongo.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-    //   alt_name: "MongoDB University",
-    //   // color_code: "#F6B808",
-    //   color_code: "#47A048",
-    // },
-    // {
-    //   title: "Cyber Security & Cyber Forensics",
-    //   subtitle: "Workshop at IIT Bombay",
-    //   logo_path: "iit.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-    //   alt_name: "Workshop",
-    //   color_code: "#2AAFED",
-    // },
-    // {
-    //   title: "MLH Local Hack Day: Build",
-    //   subtitle: "Major League Hacking",
-    //   logo_path: "mlh-logo.svg",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-    //   alt_name: "Google",
-    //   color_code: "#fe0037",
-    // },
-    // {
-    //   title: "Hack20",
-    //   subtitle: "Flutter International Hackathon",
-    //   logo_path: "flutter.png",
-    //   certificate_link:
-    //     "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
-    //   alt_name: "Flutter International Hackathon",
-    //   color_code: "#2AAFED",
-    // },
-    // {
-    //   title: "Postman Student Expert",
-    //   subtitle: "Postman",
-    //   logo_path: "postman.png",
-    //   certificate_link:
-    //     "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-    //   alt_name: "Postman",
-    //   // color_code: "#f36c3d",
-    //   color_code: "#fffbf3",
-    // },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
-  ],
-};
+// const certifications = {
+//   certifications: [
+//   ],
+// };
 
 // Experience Page
 const experience = {
@@ -384,21 +306,6 @@ const experience = {
           // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
           color: "#0071C5",
         },
-        // {
-        //   title: "Node.js Backend Developer (Intern)",
-        //   company: "Valora Infotech",
-        //   company_url: "http://valorainfotech.com/",
-        //   logo_path: "valora.jpg",
-        //   duration: "Oct 2020 - Mar 2021",
-        //   location: "Surat, Gujarat",
-        //   description: `Focus on change request functions in close collaboration with the project manager and team leads.
-        //   Developed new and maintained existing applications.
-        //   Increased productivity and problem-solving technics by 20%.
-        //   We primarily used PERN and MERN Stack. 80% of my work was doing backend development and the remaining 20% was DevOps-related tasks.
-        //   `,
-        //   // "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-        //   color: "#0071C5",
-        // },
         {
           title: "Cyber Security Engineer 2",
           company: "American Family Mutual Insurance",
@@ -413,99 +320,6 @@ const experience = {
         },
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Community Lead",
-    //       company: "Bauddhik-Geeks",
-    //       company_url: "https://bauddhikgeeks.tech/",
-    //       logo_path: "bauddhikgeeks.png",
-    //       duration: "Sep 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Help Tech-Geeks so they get exposure to the technical world and enlighten their skills. Hence, the programming club highlight all the skills of the individual members and help them develop and groom their skills in a meaningful way. Help community members to learn and grow.",
-    //       color: "#FBBD18",
-    //     },
-    //     {
-    //       title: "Cross Winter of Code Mentor",
-    //       company: "CWOC",
-    //       company_url: "https://crosswoc.ieeedtu.in/",
-    //       logo_path: "cwoc.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-    //       color: "#4285F4",
-    //     },
-    //     // {
-    //     //   title: "Campus Hustler",
-    //     //   company: "Skillenza",
-    //     //   company_url: "https://skillenza.com/",
-    //     //   logo_path: "skillenza.png",
-    //     //   duration: "Feb 2021 - Present",
-    //     //   location: "Work from Home",
-    //     //   description:
-    //     //     "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-    //     //   color: "#196acf",
-    //     // },
-    //     {
-    //       title: "GDG Student Volunteer",
-    //       company: "Google Developer Groups",
-    //       company_url: "https://gdg.community.dev/",
-    //       logo_path: "gdg.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Google Developer Group Surat Student Volunteer and Member.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "Postman Student Expert",
-    //       company: "Postman",
-    //       company_url: "https://www.postman.com/",
-    //       logo_path: "postman.png",
-    //       duration: "Feb 2020 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Google Developer Group Surat Student Volunteer and Member.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "GitHub Student Developer",
-    //       company: "GitHub",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github.png",
-    //       duration: "Nov 2019 - Present",
-    //       location: "Work from Home",
-    //       description:
-    //         "Contribute to Open Source Community and Open Source Project.",
-    //       color: "#040f26",
-    //     },
-    //     {
-    //       title: "Google Local Guide",
-    //       company: "Google Map",
-    //       company_url: "https://maps.google.com/localguides/",
-    //       logo_path: "localguide.png",
-    //       duration: "Sep 2018 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "E. F. I. Student Volunteer",
-    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-    //       company_url: "https://indiaenvironment.org/",
-    //       logo_path: "efi.png",
-    //       duration: "Apr 2017 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-    //       color: "#5a900f",
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -540,7 +354,7 @@ const frontPageImgData = {
 const ExperienceImgData = {
   imageSection: {
     title: "Contact",
-    profile_image_path: "IMG_4977.jpeg",
+    profile_image_path: "/Users/hitengupta/Documents/hiten1928.github.io/src/assests/images/IMG_4977.jpeg",
     description:
       "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
   }
@@ -646,7 +460,7 @@ export {
   socialMediaLinks,
   skills,
   degrees,
-  certifications,
+  // certifications,
   experience,
   projectsHeader,
   contactPageData,
