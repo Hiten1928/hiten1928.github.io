@@ -266,11 +266,6 @@ const degrees = {
   ],
 };
 
-// const certifications = {
-//   certifications: [
-//   ],
-// };
-
 // Experience Page
 const experience = {
   title: "Experience",
@@ -307,7 +302,18 @@ const experience = {
           color: "#0071C5",
         },
         {
-          title: "Cyber Security Engineer 2",
+          title: "Artificial Intelligence R&D Consultant",
+          company: "Native Voice AI",
+          company_url: "https://www.nativevoice.ai/",
+          logo_path: "",
+          duration: "March 2024 - Present",
+          location: "San Jose, CA",
+          description: `Consulting design and development of Voice AI , Companion AI projects across the company. 
+          Provide key insights in fine tuning LLMs, design architecture of the application and cloud services. 
+          Provide oversight in Researching AI solutions for build-from-scratch LLM models for Voice and Companion AI projects.`
+        }
+        {
+          title: "Software Engineer II",
           company: "American Family Mutual Insurance",
           company_url: "http://amfam.com/",
           logo_path: "amfam.png",
@@ -315,9 +321,9 @@ const experience = {
           location: "Madison, WI",
           description: `Responsible for digital transformation of the whole organization, moving all the infrastructure to public cloud - AWS, GCP and Azure.
           Design systems that perform cyber security rules using Artificial Intelligence`,
-          // "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
           color: "#ee3c26",
         },
+
       ],
     },
   ],
