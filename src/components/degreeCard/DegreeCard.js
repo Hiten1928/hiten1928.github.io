@@ -14,6 +14,7 @@ function DegreeCard(props) {
     padding: "10px",
     border: `1px solid ${theme.accentColor}`,
     marginRight: "50px",
+    rotate: "180deg",
     boxShadow: `0px 0px 5px ${theme.accentColor}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
