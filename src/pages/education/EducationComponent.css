@@ -27,6 +27,7 @@
 .heading-img-div > * {
   max-width: 100%;
   height: auto;
+  rotate: 180deg;
 }
 
 .heading-text {
