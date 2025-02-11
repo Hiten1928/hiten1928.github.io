@@ -15,7 +15,7 @@ const greeting = {
   full_name: "Hiten Gupta",
   subTitle: "Backend Developer. Always learning.",
   resumeLink:
-    "https://drive.google.com/file/d/1Ty0-51DZ72PE30kfJ2p1jjw9SHYCnDAi/view?usp=sharing",
+    "https://drive.google.com/file/d/1Y8UsR6SCSz23KXktSFUfWykqj3eZN1VD/view?usp=sharing",
   mail: "mailto:hitengupta98@gmail.com",
 };
 
@@ -305,13 +305,13 @@ const experience = {
           title: "Artificial Intelligence R&D Consultant",
           company: "Native Voice AI",
           company_url: "https://www.nativevoice.ai/",
-          logo_path: "",
+          logo_path: "native.jpg",
           duration: "March 2024 - Present",
           location: "San Jose, CA",
           description: `Consulting design and development of Voice AI , Companion AI projects across the company. 
           Provide key insights in fine tuning LLMs, design architecture of the application and cloud services. 
           Provide oversight in Researching AI solutions for build-from-scratch LLM models for Voice and Companion AI projects.`
-        }
+        },
         {
           title: "Software Engineer II",
           company: "American Family Mutual Insurance",
